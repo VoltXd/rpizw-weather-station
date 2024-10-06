@@ -5,6 +5,7 @@ A RPi Zero W weather station (T, RH) based on a [SHT3x](https://sensirion.com/me
 - Measure the temperature and humidity
 - Write informations on a CSV file
 - Make the CSV downloadable through a HTTP server
+- Shout out to my father who needed this project
 
 ## Set Up
 - Connect sensor to 3.3 V, I2C_1 and GND (pins: 1, 3, 5, 6)

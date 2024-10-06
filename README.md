@@ -22,7 +22,8 @@ A RPi Zero W weather station (T, RH) based on a [SHT3x](https://sensirion.com/me
 [RPi: boot without login](https://forums.raspberrypi.com/viewtopic.php?t=71690)\
 [RPi: I2C interface C documentation](https://www.kernel.org/doc/Documentation/i2c/dev-interface)\
 [TI understanding the I2C bus document](https://www.ti.com/lit/an/slva704/slva704.pdf?ts=1728082854342&ref_url=https%253A%252F%252Fwww.google.com%252F)\
-[Install a web server on RPi (french)](https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/)
+[Install a web server on RPi (french)](https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/)\
+[Highcharts: JavaScript plot library](https://highcharts.com/)
 
 ## License
 MIT License. See [LICENSE](LICENSE) file.

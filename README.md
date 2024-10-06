@@ -8,7 +8,7 @@ A RPi Zero W weather station (T, RH) based on a [SHT3x](https://sensirion.com/me
 - Shout out to my father who needed this project
 
 ## Set Up
-- Connect sensor to 3.3 V, I2C_1 and GND (pins: 1, 3, 5, 6)
+- Connect sensor to 3.3 V, I2C_1 and GND (pins: 1, 3, 5, 6)\
 ![enter image description here](images/rpizw-pinout.webp)
 - Build the content of the [C](C/) folder (run ```make```)
 - To run the program at startup, write the *run command* in ```/etc/rc.local``` (e.g.: add ```./path/to/rpizw-weather-station``` in the file, before ```exit 0```)
@@ -22,7 +22,7 @@ A RPi Zero W weather station (T, RH) based on a [SHT3x](https://sensirion.com/me
 [RPi: boot without login](https://forums.raspberrypi.com/viewtopic.php?t=71690)\
 [RPi: I2C interface C documentation](https://www.kernel.org/doc/Documentation/i2c/dev-interface)\
 [TI understanding the I2C bus document](https://www.ti.com/lit/an/slva704/slva704.pdf?ts=1728082854342&ref_url=https%253A%252F%252Fwww.google.com%252F)\
-[Install a web server on RPi (french)](https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/)\
+[Install a web server on RPi (french)](https://raspberry-pi.fr/installer-serveur-web-raspberry-lamp/)
 
 ## License
 MIT License. See [LICENSE](LICENSE) file.

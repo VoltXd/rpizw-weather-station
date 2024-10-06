@@ -7,6 +7,7 @@ BIN=bin/rpizw-weather-station
 .PHONY: clean all
 
 all:
+	mkdir -p bin
 	$(CC) -o $(BIN) $(INCLUDE) $(FLAGS) $(SRC)
 
 asm:
